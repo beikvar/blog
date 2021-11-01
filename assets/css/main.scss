@@ -1,0 +1,50 @@
+---
+---
+
+$sans-serif-font-family: "Quattrocento Sans", sans-serif;
+$serif-font-family:      "PT Serif", Georgia, "Times New Roman", serif;
+$code-font-family:       "Source Code Pro", monospace;
+
+$body-color:             #505050;
+$link-color:             black;
+
+$code-background-color:   #f5f5f5;
+$pagination-button-color: #e0e0e0;
+
+$dark-gray-color:        #333;
+$light-gray-color:       #999;
+$extra-light-gray-color: #ccc;
+
+$container-responsive-width: 768px;
+$elements-responsive-width:  30em;
+
+$icon-transition-time: .5s;
+$envelope-color:       #f39c12;
+$twitter-color:        #00aced;
+$instagram-color:      #375989;
+$github-color:         #24292e;
+$linkedin-color:       #0073a4;
+$facebook-color:       #3d5b99;
+$pinterest-color:      #bd081c;
+$medium-color:         #00AB6C;
+$codepen-color:        black;
+$rss-color:            #ff6600;
+$telegram-color:       #328ee9;
+$mastodon-color:       #3088d4;
+$koyu-color:           #fe53e1;
+$keybase-color:        #33a0ff;
+$friendica-color:      #febf19;
+$pleroma-color:        #fba457;
+$patreon-color:        #ff424d;
+$liberapay-color:      #f6c915;
+$paypal-color:         #008dda;
+$steam-color:          #171a21;
+$vk-color:             #2787f5;
+$stackoverflow-color:  #da670b;
+$vimeo-color:          #2ab7e7;
+$twitch-color:         #9147ff;
+$yc-color:             #fb6518;
+$youtube-color:        #ff0000;
+$yelp-color:           #bf2519;
+
+@import "-sections-dir";

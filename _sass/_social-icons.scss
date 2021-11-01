@@ -1,0 +1,104 @@
+/*
+  Social media icons
+*/
+
+.sharing-icons a {
+  padding-right: 10px;
+}
+
+@mixin social-media-icon($color, $transition){
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  -ms-transition: $transition;
+  -moz-transition: $transition;
+  transition: $transition;
+  &:hover{
+    color: $color;
+  }
+}
+
+.fa {
+  padding: 5px;
+}
+
+.fa-envelope {
+  @include social-media-icon($envelope-color, $icon-transition-time);
+}
+.fa-twitter {
+  @include social-media-icon($twitter-color, $icon-transition-time);
+}
+.fa-instagram {
+  @include social-media-icon($instagram-color, $icon-transition-time);
+}
+.fa-github {
+  @include social-media-icon($github-color, $icon-transition-time);
+}
+.fa-linkedin {
+  @include social-media-icon($linkedin-color, $icon-transition-time);
+}
+.fa-facebook {
+  @include social-media-icon($facebook-color, $icon-transition-time);
+}
+.fa-pinterest {
+  @include social-media-icon($pinterest-color, $icon-transition-time);
+}
+.fa-medium {
+  @include social-media-icon($medium-color, $icon-transition-time);
+}
+.fa-codepen {
+  @include social-media-icon($codepen-color, $icon-transition-time);
+}
+.fa-rss, .fa-rss-square {
+  @include social-media-icon($rss-color, $icon-transition-time);
+}
+.fa-telegram, .fa-paper-plane, .fa-paper-plane-o, .fa-send, .fa-send-o {
+  @include social-media-icon($telegram-color, $icon-transition-time);
+}
+.fa-mastodon, .fa-mastodon-alt, .mastodon-square {
+  @include social-media-icon($mastodon-color, $icon-transition-time);
+}
+.fa-circle-o {
+  @include social-media-icon($koyu-color, $icon-transition-time);
+}
+.fa-keybase {
+  @include social-media-icon($keybase-color, $icon-transition-time);
+}
+.fa-friendica {
+  @include social-media-icon($friendica-color, $icon-transition-time);
+}
+.fa-pleroma {
+  @include social-media-icon($pleroma-color, $icon-transition-time);
+}
+.fa-patreon {
+  @include social-media-icon($patreon-color, $icon-transition-time);
+}
+.fa-liberapay, .fa-liberapay-square {
+  @include social-media-icon($liberapay-color, $icon-transition-time);
+}
+.fa-paypal {
+  @include social-media-icon($paypal-color, $icon-transition-time);
+}
+.fa-steam, .fa-steam-square {
+  @include social-media-icon($steam-color, $icon-transition-time);
+}
+.fa-vk {
+  @include social-media-icon($vk-color, $icon-transition-time);
+}
+.fa-stack-overflow {
+  @include social-media-icon($stackoverflow-color, $icon-transition-time);
+}
+.fa-vimeo, .fa-vimeo-v, .fa-vimeo-square {
+  @include social-media-icon($vimeo-color, $icon-transition-time);
+}
+.fa-twitch {
+  @include social-media-icon($twitch-color, $icon-transition-time);
+}
+.fa-yc, .fa-yc-square, .fa-y-combinator, .fa-y-combinator-square, .fa-hacker-news {
+  @include social-media-icon($yc-color, $icon-transition-time);
+}
+.fa-youtube, .fa-youtube-square, .fa-youtube-play {
+  @include social-media-icon($youtube-color, $icon-transition-time);
+}
+.fa-yelp {
+  @include social-media-icon($yelp-color, $icon-transition-time);
+}
